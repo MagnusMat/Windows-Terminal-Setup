@@ -114,40 +114,7 @@
                 "tabTitle": "Ubuntu 20.04"
             },
             {
-                "background": "#012456",
-                "commandline": "powershell.exe",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "PowerShell 5",
-                "tabColor": "#012456",
-                "tabTitle": "PowerShell 5"
-            },
-            {
-                "background": "#2E2E2E",
-                "commandline": "python3.9.exe",
-                "guid": "{01c5d1d8-52ed-4425-998f-a850b94d7d9a}",
-                "icon": "C:/Python39/python.png",
-                "name": "Python",
-                "tabColor": "#2E2E2E",
-                "tabTitle": "Python 3.9"
-            },
-            {
-                "background": "#263238",
-                "commandline": "C:/Program Files/Git/bin/sh.exe --login",
-                "guid": "{ac115ecc-f1f0-49f9-b268-df89eefc71a5}",
-                "icon": "C:/Program Files/Git/git.png",
-                "name": "Git Bash",
-                "tabColor": "#263238",
-                "tabTitle": "Git Bash"
-            },
-            {
-                "commandline": "cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "cmd",
-                "tabColor": "#0C0C0C",
-                "tabTitle": "cmd"
-            },
-            {
-                "background": "#2E2E2E",
+                "background": "#00618A",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
@@ -155,12 +122,11 @@
                 "tabColor": "#2E2E2E"
             },
             {
-                "colorScheme": "MySQL",
-                "commandline": "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\mysqlsh.exe",
-                "guid": "{96c0f5d2-ebf7-4802-a9ed-fff6b04af2fe}",
-                "icon": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\MySQL\\MySQL-Logo.png",
-                "name": "MySQL Shell",
-                "tabTitle": "MySQL"
+                "commandline": "cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "tabColor": "#0C0C0C",
+                "tabTitle": "cmd"
             }
         ]
     },
