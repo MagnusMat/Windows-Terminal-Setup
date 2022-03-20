@@ -101,21 +101,31 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
+                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Powershell.png",
                 "source": "Windows.Terminal.PowershellCore",
                 "tabColor": "#0C0C0C",
                 "tabTitle": "PowerShell Core 7"
             },
             {
                 "colorScheme": "Ubuntu [Dark]",
-                "source": "Windows.Terminal.Wsl",
                 "commandline": "wsl.exe -d Debian",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
-                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Debian.png",
                 "name": "Debian",
                 "tabColor": "#3C0315",
                 "tabTitle": "Debian",
                 "startingDirectory": "//wsl.localhost/Debian/home/magn/"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "name": "Ubuntu 20.04",
+                "hidden": false,
+                "tabColor": "#3C0315",
+                "source": "Windows.Terminal.Wsl",
+                "colorScheme": "Raspberry",
+                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Ubuntu.png",
+                "startingDirectory": "//wsl.localhost/Ubuntu-20.04/home/magn"
             },
             {
                 "background": "#00618A",
