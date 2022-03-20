@@ -128,6 +128,16 @@
                 "startingDirectory": "//wsl.localhost/Ubuntu-20.04/home/magn"
             },
             {
+                "guid": "{0d4137b2-d62e-4188-9d07-9591d1a05c56}",
+                "name": "VS Dev Command Prompt",
+                "hidden": false,
+                "tabColor": "#21252b",
+                "commandline": "cmd.exe /k \"D://Visual Studio 2022//Enterprise//Common7//Tools//VsDevCmd.bat\"",
+                "colorScheme": "VS",
+                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/VS.png",
+                "tabTitle": "VS Dev cmd"
+            },
+            {
                 "background": "#00618A",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
@@ -177,6 +187,27 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "name": "VS",
+            "background": "#21252b",
+            "foreground": "#a9b2c3",
+            "black": "#21252b",
+            "blue": "#61afef",
+            "brightBlack": "#5f6672",
+            "brightBlue": "#007fff",
+            "brightCyan": "#08e8de",
+            "brightGreen": "#66ff00",
+            "brightPurple": "#8b00ff",
+            "brightRed": "#d74e42",
+            "brightWhite": "#d4d7d9",
+            "brightYellow": "#e5c07b",
+            "cyan": "#56b6c2",
+            "green": "#98c379",
+            "purple": "#b57edc",
+            "red": "#e06c75",
+            "white": "#a9b2c3",
+            "yellow": "#d19a66"
         },
         {
             "background": "#012456",
