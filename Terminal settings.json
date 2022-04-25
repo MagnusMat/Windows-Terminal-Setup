@@ -1,31 +1,38 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [{
-            "command": {
-                "action": "commandPalette"
-            },
-            "keys": "ctrl+shift+p"
-        },
+    "actions":
+    [
         {
-            "command": {
+            "command":
+            {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command":
+            {
+                "action": "commandPalette"
+            },
+            "keys": "ctrl+shift+p"
         },
         {
-            "command": {
+            "command":
+            {
                 "action": "newTab"
             },
             "icon": "\ud83c\udf29",
             "keys": "ctrl+n"
         },
         {
-            "command": {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command":
+            {
                 "action": "quakeMode"
             },
             "icon": "\ud83d\udd25",
@@ -41,7 +48,8 @@
             "keys": "ctrl+f"
         },
         {
-            "command": {
+            "command":
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -50,27 +58,33 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": {
+            "command":
+            {
                 "action": "closeTab"
             },
             "icon": "\ud83e\udd7a",
             "keys": "ctrl+w"
         },
         {
-            "command": {
+            "command":
+            {
                 "action": "openSettings"
             },
             "icon": "\u2699"
         },
         {
-            "commands": [{
-                    "command": {
+            "commands":
+            [
+                {
+                    "command":
+                    {
                         "action": "adjustFontSize",
                         "delta": 1
                     }
                 },
                 {
-                    "command": {
+                    "command":
+                    {
                         "action": "adjustFontSize",
                         "delta": -1
                     }
@@ -86,22 +100,27 @@
     "copyFormatting": "all",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "profiles": {
-        "defaults": {
-            "acrylicOpacity": 0.80000000000000004,
-            "font": {
+    "profiles":
+    {
+        "defaults":
+        {
+            "font":
+            {
                 "face": "FiraMono NF",
                 "size": 11
             },
             "hidden": false,
+            "opacity": 80,
             "useAcrylic": true
         },
-        "list": [{
+        "list":
+        [
+            {
                 "commandline": "pwsh.exe -nologo",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "name": "PowerShell",
                 "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Powershell.png",
+                "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
                 "tabColor": "#0C0C0C",
                 "tabTitle": "PowerShell Core 7"
@@ -113,29 +132,19 @@
                 "hidden": false,
                 "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Debian.png",
                 "name": "Debian",
+                "startingDirectory": "//wsl.localhost/Debian/home/magn/",
                 "tabColor": "#3C0315",
-                "tabTitle": "Debian",
-                "startingDirectory": "//wsl.localhost/Debian/home/magn/"
+                "tabTitle": "Debian"
             },
             {
+                "colorScheme": "Ubuntu [Dark]",
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "name": "Ubuntu 20.04",
                 "hidden": false,
-                "tabColor": "#3C0315",
-                "source": "Windows.Terminal.Wsl",
-                "colorScheme": "Raspberry",
                 "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Ubuntu.png",
-                "startingDirectory": "//wsl.localhost/Ubuntu-20.04/home/magn"
-            },
-            {
-                "guid": "{0d4137b2-d62e-4188-9d07-9591d1a05c56}",
-                "name": "VS Dev Command Prompt",
-                "hidden": false,
-                "tabColor": "#21252b",
-                "commandline": "cmd.exe /k \"D://Visual Studio 2022//Enterprise//Common7//Tools//VsDevCmd.bat\"",
-                "colorScheme": "VS",
-                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/VS.png",
-                "tabTitle": "VS Dev cmd"
+                "name": "Ubuntu 20.04",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "//wsl.localhost/Ubuntu-20.04/home/magn",
+                "tabColor": "#3C0315"
             },
             {
                 "background": "#00618A",
@@ -146,21 +155,51 @@
                 "tabColor": "#2E2E2E"
             },
             {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "Windows PowerShell",
-                "commandline": "powershell.exe",
-                "hidden": false
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
             },
             {
-                "commandline": "cmd.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "cmd",
                 "tabColor": "#0C0C0C",
                 "tabTitle": "cmd"
+            },
+            {
+                "guid": "{d0ddf44e-d0ca-5655-b349-c14b7f01444f}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{72b59329-f725-57a9-8df3-079508d57b57}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{3824dce6-e3bb-5cb4-b8eb-6f23d6cfb69d}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{ff65d7fe-3936-5023-a347-0e50b00631b1}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
-    "schemes": [{
+    "schemes":
+    [
+        {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
             "blue": "#0037DA",
@@ -182,27 +221,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "name": "VS",
-            "background": "#21252b",
-            "foreground": "#a9b2c3",
-            "black": "#21252b",
-            "blue": "#61afef",
-            "brightBlack": "#5f6672",
-            "brightBlue": "#007fff",
-            "brightCyan": "#08e8de",
-            "brightGreen": "#66ff00",
-            "brightPurple": "#8b00ff",
-            "brightRed": "#d74e42",
-            "brightWhite": "#d4d7d9",
-            "brightYellow": "#e5c07b",
-            "cyan": "#56b6c2",
-            "green": "#98c379",
-            "purple": "#b57edc",
-            "red": "#e06c75",
-            "white": "#a9b2c3",
-            "yellow": "#d19a66"
         },
         {
             "background": "#012456",
@@ -412,29 +430,6 @@
             "yellow": "#C4A000"
         },
         {
-            "background": "#000000",
-            "black": "#000000",
-            "blue": "#000080",
-            "brightBlack": "#808080",
-            "brightBlue": "#0000FF",
-            "brightCyan": "#00FFFF",
-            "brightGreen": "#00FF00",
-            "brightPurple": "#FF00FF",
-            "brightRed": "#FF0000",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFF00",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#008080",
-            "foreground": "#C0C0C0",
-            "green": "#008000",
-            "name": "Vintage",
-            "purple": "#800080",
-            "red": "#800000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#C0C0C0",
-            "yellow": "#808000"
-        },
-        {
             "background": "#2E3436",
             "black": "#2E3436",
             "blue": "#3465A4",
@@ -456,6 +451,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#B5BBAE",
             "yellow": "#8A7000"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#000080",
+            "brightBlack": "#808080",
+            "brightBlue": "#0000FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#008080",
+            "foreground": "#C0C0C0",
+            "green": "#008000",
+            "name": "Vintage",
+            "purple": "#800080",
+            "red": "#800000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C0C0C0",
+            "yellow": "#808000"
         }
     ],
     "tabSwitcherMode": "mru",
