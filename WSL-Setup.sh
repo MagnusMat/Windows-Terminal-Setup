@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~
+
 # Update
 sudo apt-get -y update; sudo apt-get upgrade -y
 
