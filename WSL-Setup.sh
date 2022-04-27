@@ -14,6 +14,7 @@ sh -c "$(wget -4 https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/inst
 
 # Install Powerline fonts
 sudo apt-get install fonts-powerline
+sudo apt-get install fonts-firacode
 
 # Change theme
 echo "change with 'nano ~/.zshrc' ZSH_THEME=agnoster"
