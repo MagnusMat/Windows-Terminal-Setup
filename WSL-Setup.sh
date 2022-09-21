@@ -28,8 +28,7 @@ sudo apt-get -y install fonts-powerline
 sudo apt-get -y install fonts-firacode
 
 # Install zsh and oh-my-zsh
+wget -O ~/.zshrc https://raw.githubusercontent.com/MagnusMat/Windows-Terminal-Setup/main/.zshrc
+
 sudo apt-get -y install zsh
 sh -c "$(wget -4 https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" -y # Force IPv4 address
-
-# Change zsh theme
-wget -O ~/.zshrc https://raw.githubusercontent.com/MagnusMat/Windows-Terminal-Setup/main/.zshrc
