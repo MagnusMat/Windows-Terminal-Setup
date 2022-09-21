@@ -9,6 +9,6 @@ wget -O - https://raw.githubusercontent.com/MagnusMat/Windows-Terminal-Setup/mai
 The Terminal Settings are for Windows Terminal. If the install script doesn't run because of certificate issues, then run the code below.
 
 ``` bash
-sudo apt -y update; sudo apt -y upgrade
-sudo apt-get install ca-certificates
+sudo apt-get -y update; sudo apt-get -y upgrade
+sudo apt-get -y install ca-certificates
 ```
