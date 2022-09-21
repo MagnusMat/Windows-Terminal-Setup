@@ -23,12 +23,16 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt update \
 && sudo apt install gh -y
 
+gh auth login
+
 # Install Fonts
 sudo apt-get -y install fonts-powerline
 sudo apt-get -y install fonts-firacode
 
 # Install zsh and oh-my-zsh
-wget -O ~/.zshrc https://raw.githubusercontent.com/MagnusMat/Windows-Terminal-Setup/main/.zshrc
-
 sudo apt-get -y install zsh
 sh -c "$(wget -4 https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" -y # Force IPv4 address
+
+# Change Zsh Theme
+wget -O ~/.zshrc https://raw.githubusercontent.com/MagnusMat/Windows-Terminal-Setup/main/.zshrc
+
