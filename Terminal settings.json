@@ -105,7 +105,7 @@
                 "commandline": "pwsh.exe -nologo",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Powershell.png",
+                "icon": "C:/Users/magnu/GitHub/Windows-Terminal-Setup/icons/Powershell.png",
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
                 "tabTitle": "PowerShell Core 7"
@@ -115,7 +115,7 @@
                 "commandline": "wsl.exe -d Debian",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
-                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Debian.png",
+                "icon": "C:/Users/magnu/GitHub/Windows-Terminal-Setup/icons/Debian.png",
                 "name": "Debian",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "//wsl.localhost/Debian/home/magn/",
@@ -127,7 +127,7 @@
                 "commandline": "wsl -d Ubuntu",
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
-                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/Ubuntu.png",
+                "icon": "C:/Users/magnu/GitHub/Windows-Terminal-Setup/icons/Ubuntu.png",
                 "name": "Ubuntu 20.04",
                 "startingDirectory": "//wsl.localhost/Ubuntu/home/magn",
                 "tabColor": "#3C0315"
@@ -137,7 +137,7 @@
                 "commandline": "ssh magn@138.68.73.106",
                 "guid": "{c31ae1af-f6ef-4bf3-8bde-be0dafa57e26}",
                 "hidden": false,
-                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/DigitalOcean.png",
+                "icon": "C:/Users/magnu/GitHub/Windows-Terminal-Setup/icons/DigitalOcean.png",
                 "name": "DigitalOcean",
                 "tabColor": "#3C0315",
                 "tabTitle": "DigitalOcean"
@@ -147,7 +147,7 @@
                 "commandline": "ssh root@138.68.73.106",
                 "guid": "{0b95df45-0763-452a-a2af-717b7b38304e}",
                 "hidden": false,
-                "icon": "D:/GitHub/Windows-Terminal-Setup/icons/DigitalOcean.png",
+                "icon": "C:/Users/magnu/GitHub/Windows-Terminal-Setup/icons/DigitalOcean.png",
                 "name": "DigitalOcean Root",
                 "tabColor": "#3C0315",
                 "tabTitle": "DigitalOcean"
